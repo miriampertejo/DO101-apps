@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World para auto despliegue!\n');
+  res.send('Hello World para auto despliegue! Vamos por 2 aplicaciones\n');
 });
 app.get('/Alex', function(req, res) {
   res.send('Hello ALex!\n');
